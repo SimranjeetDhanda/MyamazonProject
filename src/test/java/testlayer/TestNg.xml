@@ -1,0 +1,25 @@
+<suite name="TestNg Amazon">
+	<test name="Regression" allow-return-values="true">
+		<classes>
+			<class name="testlayer.CreateAccountClass" />
+	<class name="testlayer.GuestaccountTest" />
+	
+	<class name="testlayer.LoginAndSecurityTest" />
+	
+	<class name="testlayer.SearchingTest" />
+	<class name="testlayer.ShoppingcartTest" />
+	<class name="testlayer.SortingTest" />
+	
+	<class name="testlayer.UsernameTest" />
+	
+	<class name="testlayer.Youraccountmodule" />
+	
+	<class name="testlayer.YourOrders" />
+	
+	
+		</classes>
+	
+	</test>
+
+</suite>
+		

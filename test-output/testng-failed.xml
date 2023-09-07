@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNg Amazon]">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="testlayer.UsernameTest">
+        <methods>
+          <include name="checkedKeepMeSignIn"/>
+          <include name="emptypassword"/>
+          <include name="validPassword"/>
+          <include name="validusername"/>
+          <include name="intitsetup"/>
+          <include name="invalidusername"/>
+          <include name="invalidpassword"/>
+          <include name="close"/>
+          <include name="emptyusername"/>
+        </methods>
+      </class> <!-- testlayer.UsernameTest -->
+      <class name="testlayer.GuestaccountTest">
+        <methods>
+          <include name="Searchproduct"/>
+          <include name="intiate"/>
+          <include name="Checkout"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testlayer.GuestaccountTest -->
+      <class name="testlayer.LoginAndSecurityTest">
+        <methods>
+          <include name="intitsetup"/>
+          <include name="AbilitytoAddItems"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testlayer.LoginAndSecurityTest -->
+      <class name="testlayer.ShoppingcartTest">
+        <methods>
+          <include name="featuresOfProducts"/>
+          <include name="Quanityverification"/>
+          <include name="intiate"/>
+          <include name="close"/>
+          <include name="verifyProduct"/>
+          <include name="InfoAboutProduct"/>
+          <include name="removalOfItem"/>
+          <include name="HoldingItems"/>
+          <include name="priceverification"/>
+        </methods>
+      </class> <!-- testlayer.ShoppingcartTest -->
+      <class name="testlayer.SearchingTest">
+        <methods>
+          <include name="SearchWithKeyword"/>
+          <include name="SearchWithItemNumber"/>
+          <include name="NumberOfProducts"/>
+          <include name="NextButtonFunctionality"/>
+          <include name="SearchwithDescriptionText"/>
+          <include name="SearchWithCategory"/>
+          <include name="SearchPage"/>
+          <include name="intiate"/>
+          <include name="SearchwithPartialItemsNumber"/>
+          <include name="close"/>
+          <include name="RelevantProducts"/>
+          <include name="SearchWithPartialText"/>
+          <include name="productinformation"/>
+        </methods>
+      </class> <!-- testlayer.SearchingTest -->
+      <class name="testlayer.Youraccountmodule">
+        <methods>
+          <include name="verifymsg"/>
+          <include name="clicktxtmsg"/>
+          <include name="intiate"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testlayer.Youraccountmodule -->
+      <class name="testlayer.YourOrders">
+        <methods>
+          <include name="YourOrderPage"/>
+          <include name="close"/>
+          <include name="BuyAgain"/>
+          <include name="intitsetup"/>
+          <include name="CancelledOrders"/>
+          <include name="NotYetShippedOptions"/>
+          <include name="PastOrders"/>
+        </methods>
+      </class> <!-- testlayer.YourOrders -->
+      <class name="testlayer.SortingTest">
+        <methods>
+          <include name="SortOptions"/>
+          <include name="ClickSortingOption"/>
+          <include name="repetitionofProducts"/>
+          <include name="intiate"/>
+          <include name="DuplicateProducts"/>
+          <include name="close"/>
+          <include name="Filters"/>
+          <include name="FilterAndSort"/>
+        </methods>
+      </class> <!-- testlayer.SortingTest -->
+      <class name="testlayer.CreateAccountClass">
+        <methods>
+          <include name="accountCreation"/>
+          <include name="DifferentPasswordagainField"/>
+          <include name="EmptyEmail"/>
+          <include name="ValidPasswordFields"/>
+          <include name="ExistingAccount"/>
+          <include name="EmptyName"/>
+          <include name="InvalidPassword"/>
+          <include name="PartialEmail"/>
+          <include name="accountCreationValid"/>
+          <include name="close"/>
+          <include name="partialMObileNo"/>
+          <include name="intiate"/>
+        </methods>
+      </class> <!-- testlayer.CreateAccountClass -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [TestNg Amazon] -->
